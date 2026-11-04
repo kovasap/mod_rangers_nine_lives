@@ -9,7 +9,7 @@
         // Reforged appends: "\n[color=#bcad8c]Pathfinders:[/color] All recruits have access to the Pathfinder perk."
         // We look for Reforged's Pathfinders string and replace it with Nine Lives flavor text.
         local oldText = "\n[color=#bcad8c]Pathfinders:[/color] All recruits have access to the Pathfinder perk.";
-        local newText = "\n[color=#bcad8c]Nine Lives:[/color] All recruits have access to the Nine Lives perk, cheating death when the wild strikes hardest.";
+        local newText = "\n[color=#bcad8c]Catlike Reflexes:[/color] All recruits have access to the Nine Lives perk.";
 
         // Replace string if found, otherwise append nicely
         local idx = this.m.Description.find(oldText);
